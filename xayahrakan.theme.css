@@ -1,0 +1,33 @@
+/**
+ * @name Xayah_Rakan
+ * @version 8.0
+ * @description A simple but highly customizable theme, now sugar free!
+ * @author Spectra
+ * @invite PZdnCVD
+ * @source https://github.com/xcruxiex/themes
+ * @website https://betterdiscord.app/theme/Neutron
+ * @BDEditor Neutron
+*/
+
+@import url('https://xcruxiex.github.io/themes/themes-cores/neutron8.css');
+
+:root {
+  --backgroundImage: url('https://i.imgur.com/hVB5kGJ.jpg');
+  --backgroundColor: #563B67;
+  --backgroundSize: cover;
+  --backgroundPosition: center;
+  --backgroundRepeat: no-repeat;
+  --backgroundBlur: 0px;
+  --backgroundOpacity: 0.5;
+  --homeImage: url('https://i.imgur.com/Zlurd8E.jpg');
+  --homeImageSize: cover;
+  --themeColor1: #71ABC6;
+  --themeColor2: #F4AEE2;
+  --customFont: Open Sans;
+  --backgroundCode: rgba(0 0 0 /.5);
+  --backgroundName: rgb(56,30,101,0.35);
+}
+
+/* Any custom CSS below here */
+
+
