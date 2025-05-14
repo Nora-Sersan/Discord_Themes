@@ -1,78 +1,48 @@
+/**
+ * @name Pollux HSR
+ * @author Gibbu
+ * @version 2.0.0
+ * @description Display your picture of choice with adjustable blur and brightness.
+ * @source https://github.com/DiscordStyles/FrostedGlass
+ * @invite ZHthyCw
+ * @BDEditor Frosted Glass
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Norican:wght@100;300;400;500;700&display=swap');
-@import url('https://clearvision.github.io/ClearVision-v6/main.css');
+@import url('https://discordstyles.github.io/FrostedGlass/FrostedGlass.css');
 
 :root {
-  --main-color: #A382DD;
-  --hover-color: #FFE2FA;
-  --success-color: #43B581;
-  --danger-color: #673AB7;
-  --url-color: #FFE2FA;
-  --background-image: url('https://i.imgur.com/zU3gLkE.jpeg');
-  --background-shading: 100%;
-  --background-position: center;
-  --background-size: cover;
-  --background-repeat: no-repeat;
-  --background-attachment: fixed;
-  --background-brightness: 100%;
-  --background-contrast: 100%;
-  --background-saturation: 100%;
-  --background-grayscale: 0%;
-  --background-invert: 0%;
-  --background-blur: 0px;
-  --background-overlay: rgba(0,0,0,0.6);
-  --user-popout-image: url('https://clearvision.github.io/images/sapphire.jpg');
-  --user-popout-position: center;
-  --user-popout-size: cover;
-  --user-popout-repeat: no-repeat;
-  --user-popout-attachment: fixed;
-  --user-popout-brightness: 100%;
-  --user-popout-contrast: 100%;
-  --user-popout-saturation: 100%;
-  --user-popout-grayscale: 0%;
-  --user-popout-invert: 0%;
-  --user-popout-blur: 3px;
-  --user-modal-image: url('https://i.imgur.com/QTPc4Zj.jpeg');
-  --user-modal-position: center;
-  --user-modal-size: cover;
-  --user-modal-repeat: no-repeat;
-  --user-modal-attachment: fixed;
-  --user-modal-brightness: 100%;
-  --user-modal-contrast: 100%;
-  --user-modal-saturation: 100%;
-  --user-modal-grayscale: 0%;
-  --user-modal-invert: 0%;
-  --user-modal-blur: 3px;
-  --home-icon: url('https://i.imgur.com/sq2HfnH.png');
-  --home-position: center;
-  --home-size: 40px;
-  --channel-unread: #FFFFFF1A;
-  --channel-color: rgb(255,218,249,0.77);
-  --muted-color: rgb(255,255,255,0.1);
-  --online-color: #FFE2FA;
-  --idle-color: #DAFEFF;
-  --dnd-color: #3A71B7;
-  --streaming-color: #593695;
-  --offline-color: #808080;
-  --main-font: Norican;
-  --code-font: Consolas;
-  --channels-width: 220px;
-  --members-width: 240px;
-  --backdrop-overlay: rgba(0,0,0,0.8);
-  --backdrop-image: var(--background-image);
-  --backdrop-position: var(--background-position);
-  --backdrop-size: var(--background-size);
-  --backdrop-repeat: var(--background-repeat);
-  --backdrop-attachment: var(--background-attachment);
-  --backdrop-brightness: var(--background-brightness);
-  --backdrop-contrast: var(--background-contrast);
-  --backdrop-saturation: var(--background-saturation);
-  --backdrop-invert: var(--background-invert);
-  --backdrop-grayscale: var(--background-grayscale);
-  --backdrop-sepia: var(--background-sepia);
-  --backdrop-blur: var(--background-blur);
-  --bd-blue: var(--main-color);
-  --bd-blue-hover: var(--hover-color);
-  --bd-blue-active: var(--hover-color);
+  --background-image: url('https://i.imgur.com/g7b4Xcy.jpeg');
+  --background-image-blur: 0px;
+  --background-image-size: cover;
+  --background-image-position: center;
+  --popout-image: url('https://i.imgur.com/lTVc9JZ.jpeg');
+  --popout-image-blur: 5px;
+  --popout-image-size: cover;
+  --popout-image-position: center;
+  --overlay-image: var(--background-image);
+  --overlay-image-blur: 5px;
+  --overlay-image-size: cover;
+  --overlay-image-position: center;
+  --home-button-image: url('https://i.imgur.com/JbKXOQ0.png');
+  --home-button-size: cover;
+  --home-button-position: center;
+  --serverlist-brightness: 0.8;
+  --left-brightness: 0.8;
+  --middle-brightness: 0.6;
+  --right-brightness: 0;
+  --overlay-brightness: 0.75;
+  --gradient-primary: 103,58,183;
+  --gradient-secondary: 255,214,246;
+  --link-colour: #E9CBFF;
+  --scrollbar-colour: rgba(255,255,255,0.05);
+  --gradient-direction: 320deg;
+  --tint-colour: 255,214,236;
+  --tint-brightness: 0;
+  --font: Norican;
+  --window-padding: 0px;
+  --window-roundness: 10px;
+  --update-notice-1: none;
 }
 
 /* Any custom CSS below here */
